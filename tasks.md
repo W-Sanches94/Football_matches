@@ -61,7 +61,7 @@ SELECT COUNT (DISTINCT hometeam) FROM matches WHERE division_code = 'F1' or divi
 8) How many draws were there in the `Eredivisie` between 2010 and 2015?
 
 ```sql
-<!-- Copy solution here -->
+SELECT COUNT(*) from matches WHERE division_Code = 'N1' AND ftr = 'D' AND season BETWEEN 2010 AND 2015;
 
 
 ```
