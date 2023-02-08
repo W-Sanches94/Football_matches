@@ -45,7 +45,7 @@ Each of the questions/tasks below can be answered using a `SELECT` query. When y
 6) How many different teams have played in matches recorded in a French division?
 
 ```sql
-<!-- Copy solution here -->
+<!-- SELECT COUNT (DISTINCT hometeam) FROM matches WHERE division_code = 'F1' or division_code = 'F2'; -->
 
 
 ```
