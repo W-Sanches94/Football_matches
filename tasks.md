@@ -21,7 +21,7 @@ Each of the questions/tasks below can be answered using a `SELECT` query. When y
 3) What are the names of the Scottish divisions included?
 
 ```sql
-<!-- CSELECT name FROM divisions WHERE country LIKE 'Scotland' -->
+<!-- SELECT name FROM divisions WHERE country LIKE 'Scotland' -->
 
 
 ```
@@ -29,7 +29,7 @@ Each of the questions/tasks below can be answered using a `SELECT` query. When y
 4) Find the value of the `code` for the `Bundesliga` division. Use that code to find out how many matches Freiburg have played in that division. HINT: You will need to query both tables
 
 ```sql
-<!-- Copy solution here -->
+<!-- SELECT count(*) FROM matches WHERE division_code = 'D1' AND (hometeam = 'Freiburg' OR awayteam = 'Freiburg')-->
 
 
 ```
