@@ -21,7 +21,7 @@ Each of the questions/tasks below can be answered using a `SELECT` query. When y
 3) What are the names of the Scottish divisions included?
 
 ```sql
-<!-- Copy solution here -->
+<!-- CSELECT name FROM divisions WHERE country LIKE 'Scotland' -->
 
 
 ```
