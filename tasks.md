@@ -37,7 +37,7 @@ Each of the questions/tasks below can be answered using a `SELECT` query. When y
 5) Find the teams which include the word "City" in their name. 
 
 ```sql
-<!-- Copy solution here -->
+<!-- SELECT DISTINCT hometeam FROM matches WHERE hometeam LIKE '%City%'; -->
 
 
 ```
